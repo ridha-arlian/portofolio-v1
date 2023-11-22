@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- My CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Icon -->
+    <link rel="Icon" href="img/logo.png" />
+
+    <title>Ridha Arlian</title>
+  </head>
+  <body id="Home">
+    <!-- Start Navbar -->
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </header>
+    <section class="banner"></section>
+    <!-- End Navbar -->
+
+    <!-- Start Jumbotron -->
+    <section>
+      <div class="container">
+        <div class="card"></div>
+      </div>
+    </section>
+
+    <!-- End Jumbotron -->
+
+    <!-- Start Skills -->
+
+    <!-- End Skills -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <!-- Script Navbar -->
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var section = document.querySelector("section");
+      section.classList.toggle("sticky", window.scrollY > 0);
+    })
+    </script>
+
+  </body>
+</html>
